@@ -1,0 +1,126 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  background:url("background.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+#form1 {
+  display: flex;
+  padding:80px;
+  margin-top:20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: floralwhite;
+  width:250px;
+  height:500px;
+  justify-content: center;
+  top:10%;
+  box-shadow: 0 10px 20px rgba(0,0,0,2);
+}
+.email {
+  position:relative;
+  display:inline-block;
+  letter-spacing: 1px;
+  padding:10px;
+  bottom:20px;
+  width:250px;
+  font-family: monospace;
+  border: 1px solid floralwhite;
+  background-color: transparent;
+  border-bottom: 2px solid rgb(63,224,208);
+}
+.password {
+  position:relative;
+  display:inline-block;
+  letter-spacing: 1px;
+  padding:10px;
+  bottom: 20px;
+  width:250px;
+  font-family: monospace;
+  border: 1px solid floralwhite;
+  background-color: transparent;
+  border-bottom: 2px solid rgb(63,224,208);
+}
+.conpassword{
+  position:relative;
+  display:inline-block;
+  letter-spacing: 1px;
+  padding:10px;
+  bottom: 10px;
+  width:250px;
+  font-family: monospace;
+  border: 1px solid floralwhite;
+  background-color: transparent;
+  border-bottom: 2px solid rgb(63,224,208);
+}
+.firname{
+  position:relative;
+  display:inline-block;
+  letter-spacing: 1px;
+  padding:10px;
+  bottom: 20px;
+  width:250px;
+  font-family: monospace;
+  border: 1px solid floralwhite;
+  background-color: transparent;
+  border-bottom: 2px solid rgb(63,224,208);
+}
+.surname {
+  position:relative;
+  display:inline-block;
+  letter-spacing: 1px;
+  padding:10px;
+  bottom: 20px;
+  width:250px;
+  font-family: monospace;
+  border: 1px solid floralwhite;
+  background-color: transparent;
+  border-bottom: 2px solid rgb(63,224,208);
+}
+span {
+  position:relative;
+  display:block;
+  font-size:25px;
+  bottom:10px;
+  font-family:monospace;
+  color:rgb(63,224,208);
+  font-weight: bold;
+}
+.button {
+  display: inline-block;
+  position: relative;
+  padding:7px;
+  width:150px;
+  background-image:linear-gradient(200deg,rgb(63,224,208),rgb(138,43,226));
+  border: 1px solid floralwhite;
+  font-family: monospace;
+  color:white;
+  font-size: 20px;
+  left:20%;
+  top:20px;
+}
+p {
+ display:inline-block;
+ position: relative;
+ font-size: 15px;
+ font-family:monospace;
+ top:40px;
+}
+.reg {
+  display:inline-block;
+  position: relative;
+  text-decoration: none;
+  font-size: 15px;
+  font-family:monospace;
+  color:rgb(63,224,208);
+  font-weight: bold;
+  top:40px;
+}
+
