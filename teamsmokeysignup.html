@@ -7,30 +7,22 @@
   <link rel="stylesheet" href="teamsmokeysignup.css" type="text/css">
   <title>Signup page</title>
   
-  <script type="text/javascript">
-    //script-of-verificate-password 
-    function validate() {
-   var a = document.getElementById("psswd").value;
-   var b = document.getElementById("conf_psswd").value;
-   if (a!=b) {
-    alert("passwords do not match.");
-    }
-   else {
-     alert("Your information has been taken into account.(Back-end Guys read my js code)");
-
-     //Back-end can redirect the link to login page after collect the information
-     //document.valid_psswd.submit();
-  }
-}
-  </script>
+  
 </head>
 <body>
+
+  <div id="mymodal" class="modal">
+    <div class="modal-content">
+      <span class="close-button">&times;</span>
+      <h1>The Firstname, Surname, and Password must exceed 4 characters</h1>
+    </div>
+  </div>
   <div id="form1">
   <form action="#" id="valid_psswd" onsubmit="validate();">
     <span>Firstname</span> <br>
     <input class="firname" type="text" placeholder="Enter firstname" required><br>
     <span>Lastname</span> <br>
-    <input class="surname" type="text" placeholder="Enter surnmae" required><br>
+    <input class="surname" type="text" placeholder="Enter surname" required><br>
     <span>Email</span> <br>
     <input class="email" type="email" placeholder="Enter email" required><br>
     <span>Password</span> <br>
@@ -41,5 +33,8 @@
     <p>Already have an account?</p><a href="index.html" class="reg">Login</a>
   </form>
   </div>
+
+
+  <script type="text/javascript" src="smokey.js"></script>
 </body>
 </html>
