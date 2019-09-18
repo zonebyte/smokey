@@ -7,7 +7,7 @@
  var input4 = document.getElementsByClassName("password")[0];
  var input5 = document.getElementsByClassName("conpassword")[0];
  var modalss = document.getElementById('mymodal');
- var modalss = document.getElementById('mymodal2');
+ var modalss2 = document.getElementById('mymodal2');
  var span = document.getElementsByClassName('close-button')[0];
  var span2 = document.getElementsByClassName('close-button2')[0];
 
@@ -40,9 +40,9 @@ function verifyPass2() {
 }
 
 function successPopUp() {
-  modalss.style.display = 'block';
-  span.onclick = function() {
-    modalss.style.display = "none"; 
+  modalss2.style.display = 'block';
+  span2.onclick = function() {
+    modalss2.style.display = "none"; 
   }
 }
 
