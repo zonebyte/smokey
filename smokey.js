@@ -7,7 +7,9 @@
  var input4 = document.getElementsByClassName("password")[0];
  var input5 = document.getElementsByClassName("conpassword")[0];
  var modalss = document.getElementById('mymodal');
+ var modalss = document.getElementById('mymodal2');
  var span = document.getElementsByClassName('close-button')[0];
+ var span2 = document.getElementsByClassName('close-button2')[0];
 
 function clearInputs() {
   input.value="";
@@ -37,6 +39,13 @@ function verifyPass2() {
   }
 }
 
+function successPopUp() {
+  modalss.style.display = 'block';
+  span.onclick = function() {
+    modalss.style.display = "none"; 
+  }
+}
+
  //script-of-verificate-password 
   function validate() {
   
@@ -51,6 +60,7 @@ function verifyPass2() {
     //Back-end can redirect the link to login page after collect the information
      //document.valid_psswd.submit();
   } else {
-    alert('congrats');
+    successPopUp();
+    clearInputs();
   }
 }
