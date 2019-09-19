@@ -12,54 +12,89 @@ html{
 height: 100vh;
  
  	
+}#myform {
+  padding:80px;
+  margin-left: 50%;
+  background-color: white;
+  width:290px;
+  justify-content: center;
+  margin-top:100px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+  
 }
-#myform {
- background-color:floralwhite;
- box-shadow: 0 10px 20px rgba(0,0,0,9);
- justify-content: center;
-margin-left:auto;
-		margin-right: auto;
-		width: 250px;
-		padding:50px;
-		margin-top: 60px;
-}
-input[type="email"], input[type="password"], input[type="text"] {
- border: 1px solid floralwhite;
+input[type="email"], input[type="password"], .firname, .surname{
+ border: 1px solid white;
  background-color: transparent;
- border-bottom: 2px solid rgb(63,224,208);
- width: 250px;
+ border-bottom: 1px solid rgb(75,83,32);
+font-family:'Roboto', sans-serif;
+ padding:5px;
+ width: 110px;
+letter-spacing: 1px;
+}
+
+.surname{
+margin-left:5px;
+}
+input[type="email"], input[type="password"] {
+	width: 250px;
 }
 span {
-display:inline-block;
-  font-size:25px;
-  font-family:monospace;
-  color:rgb(63,224,208);
-  font-weight: bold;
-padding-top:10px;
+  display:inline-block;
+  font-size:15px;
+  margin-top:20px;
 padding-bottom:10px;
-
+  font-family:'Roboto', sans-serif;
+  color:rgb(75,83,32);
+  font-weight:normal;
+  text-transform: uppercase;
 }
 .button {
-  background-image:linear-gradient(200deg,rgb(125,146,211),rgb(165,115,213));
-  border: 1px solid floralwhite;
-  padding:7px;
+   padding:6px;
+  width:120px;
+  background-color:rgb(75,83,32);
+  border: 1px solid rgb(75,83,32);
+  font-family: 'Roboto', sans-serif;
   color:white;
-  font-size: 20px;
-  margin-left: 50px;
+  font-size: 18px;
+  font-weight: lighter;
+  margin-left: 80px;
 margin-top:10px;
-  width: 150px;
-  outline: none;
+  box-shadow: 0 0 5px rgba(0,0,0,2);
+  border-radius: 20px;
+outline: none;
   cursor: pointer;
 }
-
 .reg {
   display:inline-block;
   position: relative;
   text-decoration: none;
   font-size: 15px;
-  color:rgb(63,224,208);
+  font-family:'Roboto', sans-serif;
+  color:rgb(75,83,32);
   font-weight: bold;
-  left:10px;
+  margin-left: 10px;
+margin-top:20px;
+
+}
+
+.have {
+	margin-left:40px;
+}
+.use{
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  display: inline-block;
+  bottom:1px;
+margin-top:20px;
+}
+
+input[type="checkbox"] {
+	margin-right:3px;
+} 
+::placeholder {
+  color:grey;
+  opacity: 1;
 }
 
 .modal {
@@ -112,7 +147,7 @@ margin-top:10px;
   text-align: center;
   cursor: pointer;
   border-radius: 0.25rem;
-  background-color: lightgray;
+  background-color: lightgrey;
   
   /*color: #aaa;
   float: right;
@@ -121,7 +156,7 @@ margin-top:10px;
 }
 
 .close-button:hover {
-  background-color: darkgray;
+  background-color: darkgrey;
   cursor: pointer;
 }
 
@@ -132,54 +167,14 @@ margin-top:10px;
   text-align: center;
   cursor: pointer;
   border-radius: 0.25rem;
-  background-color: lightgray;
+  background-color: lightgrey;
   
   /*color: #aaa;
   float: right;
   font-size: 28px;
   font-weight: bolder;*/
 }
-
 .close-button2:hover {
-  background-color: darkgray;
+  background-color: darkgrey;
   cursor: pointer;
-}
-@media only screen and (max-width: 600px){
-	#myform {
-		margin-left:auto;
-		margin-right: auto;
-		width: 180px;
-		padding:20px;
-		margin-top: 10px;
-	}
-	
-span {
-
-  font-size:14px;
-padding-top:10px;
-padding-bottom:10px;
-
-}
-input[type="email"], input[type="password"], input[type="text"] {
-
- width: 180px;
-}
-.button {
-  padding:5px;
-  font-size: 18px;
-  margin-left: 35px;
-  width: 100px;
- 
-}
-.reg {
-  font-size: 12px;
-  color:rgb(63,224,208);
-  font-weight: bold;
-  left:5px;
-}
-
-p {
-	font-size: 12px;
-}
-
 }
