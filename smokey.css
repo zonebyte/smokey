@@ -94,20 +94,37 @@ input[type="email"], input[type="password"] {
 
 @media only screen and (max-width: 600px){
 	#myform {
-		/*margin:0 auto;*/
-		position: absolute;
+		margin-left:auto;
+		margin-right: auto;
+		width: 200px;
+		padding:40px;
+		margin-top: 100px;
 		/*margin-right: auto;*/
 		/*margin-top: auto;
 		margin-bottom: auto;*/
 		/*text-align: center;*/
-		left: 50%;
-		top: 50%;
-		height: 300px;
-		width: 300px;
-		margin-left: -150px;
-		margin-top: -150px;
 		/*left: 25%;*/
 		/*bottom: auto;*/
 	}
+	input[type="email"], input[type="password"] {
+ border: 1px solid floralwhite;
+ background-color: transparent;
+ border-bottom: 2px solid rgb(63,224,208);
+ padding:5px;
+ width: 200px;
+}
+span {
+  font-size:20px;
+  }
+  .forg{
+  font-size: 12px;
+}
+.reg, .don {
+  font-size: 12px;
+  
+}
+.btn {
+	margin-left: 40px;
+}
 }
 
