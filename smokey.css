@@ -92,3 +92,22 @@ input[type="email"], input[type="password"] {
   left:10px;
 }
 
+@media only screen and (max-width: 600px){
+	#myform {
+		/*margin:0 auto;*/
+		position: absolute;
+		/*margin-right: auto;*/
+		/*margin-top: auto;
+		margin-bottom: auto;*/
+		/*text-align: center;*/
+		left: 50%;
+		top: 50%;
+		height: 300px;
+		width: 300px;
+		margin-left: -150px;
+		margin-top: -150px;
+		/*left: 25%;*/
+		/*bottom: auto;*/
+	}
+}
+
