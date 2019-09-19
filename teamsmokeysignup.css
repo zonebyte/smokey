@@ -64,6 +64,9 @@ margin-top:10px;
 outline: none;
   cursor: pointer;
 }
+.button:hover {
+	background-color: rgb(165,115,213);
+}
 .reg {
   display:inline-block;
   position: relative;
@@ -75,6 +78,9 @@ outline: none;
   margin-left: 10px;
 margin-top:20px;
 
+}
+.reg:hover {
+	color: rgb(165,115,213);
 }
 
 .have {
@@ -211,7 +217,7 @@ input[type="email"], input[type="password"]{
 }
 .reg {
   font-size: 14px;
-  color:rgb(63,224,208);
+  color:rgb(75,83,32);
   font-weight: bold;
   left:5px;
 }
