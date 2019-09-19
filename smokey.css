@@ -3,10 +3,11 @@
 }
  html {
  	background:url(background.jpg) no-repeat center center fixed;
- 	-webkit-background-size: 100% 100%;
- 	-moz-background-size: 100% 100%;
- 	-o-background-size: 100% 100%;
- 	background-size: 100% 100%;
+ 	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	/*background-size: 100% 100%;*/
+ 	background-size: cover;
  	height: 100vh;
  	overflow: hidden;
  }
@@ -96,7 +97,7 @@ input[type="email"], input[type="password"] {
 	#myform {
 		margin-left:auto;
 		margin-right: auto;
-		width: 200px;
+		width: 250px;
 		padding:40px;
 		margin-top: 100px;
 		/*margin-right: auto;*/
@@ -111,7 +112,7 @@ input[type="email"], input[type="password"] {
  background-color: transparent;
  border-bottom: 2px solid rgb(63,224,208);
  padding:5px;
- width: 200px;
+ width: 250px;
 }
 span {
   font-size:20px;
@@ -119,10 +120,7 @@ span {
   .forg{
   font-size: 12px;
 }
-.reg, .don {
-  font-size: 12px;
-  
-}
+
 .btn {
 	margin-left: 40px;
 }
